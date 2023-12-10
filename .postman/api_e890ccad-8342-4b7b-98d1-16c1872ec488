@@ -9,6 +9,7 @@ id = e890ccad-8342-4b7b-98d1-16c1872ec488
 
 [config.relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"24128744-ee7cbb21-2047-4d6a-bd8c-1f55eb96dd25","path":"Vehicle Status Collection.json","metaData":{"generateCollectionPreferences":"{\"requestNameSource\":\"Fallback\",\"indentCharacter\":\"Space\",\"parametersResolution\":\"Schema\",\"folderStrategy\":\"Paths\",\"includeAuthInfoInExample\":true,\"enableOptionalParameters\":true,\"keepImplicitHeaders\":false,\"includeDeprecated\":true,\"alwaysInheritAuthentication\":false,\"updateCollectionSync\":true,\"requestParametersResolution\":\"Schema\",\"exampleParametersResolution\":\"Schema\"}"}}
 
 [config.relations.collections.metaData]
 
