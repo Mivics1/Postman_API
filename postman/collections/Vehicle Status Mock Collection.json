@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "ee7cbb21-2047-4d6a-bd8c-1f55eb96dd25",
-		"name": "Vehicle Status Collection",
+		"_postman_id": "48321aac-f8a2-41c1-922d-8105c0a20c01",
+		"name": "Vehicle Status Mock Collection",
 		"description": "API to perform critical status checks on connected vehicles",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "24128744-ee7cbb21-2047-4d6a-bd8c-1f55eb96dd25"
+		"_uid": "24128744-48321aac-f8a2-41c1-922d-8105c0a20c01"
 	},
 	"item": [
 		{
@@ -21,7 +21,7 @@
 									"item": [
 										{
 											"name": "Returns the current odometer reading in both km and miles",
-											"id": "79774ba0-9b6a-4a64-9563-c00fa99b5e9e",
+											"id": "44f048c4-f866-4667-a6d4-538341876e45",
 											"protocolProfileBehavior": {
 												"disableBodyPruning": true
 											},
@@ -47,7 +47,7 @@
 													"variable": [
 														{
 															"key": "vin",
-															"value": "<string>",
+															"value": "4Y1SL65848Z411439",
 															"description": "(Required) Required 17-character VIN (Vehicle Identification Number)"
 														}
 													]
@@ -55,7 +55,7 @@
 											},
 											"response": [
 												{
-													"id": "51aa9a4b-2fa7-4777-b3be-0eeb2f3307e3",
+													"id": "3600f42d-cf0c-4be4-82c0-e9b9f42a84ac",
 													"name": "Success",
 													"originalRequest": {
 														"method": "GET",
@@ -101,7 +101,7 @@
 													"body": "{\n  \"km\": \"<number>\",\n  \"miles\": \"<number>\"\n}"
 												},
 												{
-													"id": "d875818a-0219-42bb-a71c-385cb860afbb",
+													"id": "0de94087-3945-40fb-9f3b-61e6e06420b0",
 													"name": "Unexpected error",
 													"originalRequest": {
 														"method": "GET",
@@ -149,14 +149,14 @@
 											]
 										}
 									],
-									"id": "9964e448-721b-4379-885d-8a7ce3f6165c"
+									"id": "afe2c454-c44e-4620-bd77-b962c295465c"
 								},
 								{
 									"name": "battery",
 									"item": [
 										{
 											"name": "Returns a status and health report for all connected battery elements (includes EV batteries as well)",
-											"id": "f2efad9d-af9b-4ad1-8a56-c29650f6979a",
+											"id": "bab98307-2630-4d45-8ef8-8fec8e464347",
 											"protocolProfileBehavior": {
 												"disableBodyPruning": true
 											},
@@ -190,7 +190,7 @@
 											},
 											"response": [
 												{
-													"id": "89b56070-7db5-4349-ba0b-f553a2bed028",
+													"id": "0b01e6fd-6b9a-4189-af10-78a625cf40f7",
 													"name": "Success",
 													"originalRequest": {
 														"method": "GET",
@@ -236,7 +236,7 @@
 													"body": "{\n  \"cca\": \"<number>\",\n  \"charging\": \"<boolean>\",\n  \"health\": \"<string>\",\n  \"install\": \"<string>\",\n  \"overvolt\": \"<boolean>\",\n  \"type\": \"<string>\",\n  \"voltage\": \"<number>\"\n}"
 												},
 												{
-													"id": "1935c01a-1c09-4229-bc4f-34810c00dc56",
+													"id": "ac230a38-10b7-47a3-a96f-81d425211253",
 													"name": "Unexpected error",
 													"originalRequest": {
 														"method": "GET",
@@ -284,14 +284,14 @@
 											]
 										}
 									],
-									"id": "03712ec1-f90e-4114-b27f-fd6f1017ff09"
+									"id": "597a99aa-4117-4bfd-99ea-2438a6f85fe3"
 								},
 								{
 									"name": "engine",
 									"item": [
 										{
 											"name": "Returns a complete status and health update for the engine",
-											"id": "75ee957c-d645-48d7-ad39-a0415dd05cef",
+											"id": "a90bd617-f8b1-4a0c-9b3e-b0f1e135c37c",
 											"protocolProfileBehavior": {
 												"disableBodyPruning": true
 											},
@@ -326,7 +326,7 @@
 											},
 											"response": [
 												{
-													"id": "757fa899-e9fb-40bc-80ff-f36f0932c273",
+													"id": "9314becf-acca-435c-b9c5-0c262304dd0e",
 													"name": "Success",
 													"originalRequest": {
 														"method": "GET",
@@ -372,7 +372,7 @@
 													"body": "{\n  \"coolantTemp\": \"<number>\",\n  \"oilPressure\": \"<number>\",\n  \"oilTemp\": \"<number>\",\n  \"rpm\": \"<number>\",\n  \"running\": \"<boolean>\"\n}"
 												},
 												{
-													"id": "37e5337d-6ce6-4456-a449-929068f00337",
+													"id": "8d8cf7d5-35ae-400f-9f23-5ffda0824d63",
 													"name": "Unexpected error",
 													"originalRequest": {
 														"method": "GET",
@@ -420,16 +420,16 @@
 											]
 										}
 									],
-									"id": "f58172ff-90ec-4e37-b250-302ff38bd9aa"
+									"id": "c6e7e84b-14f2-4512-807d-59a7c410fead"
 								}
 							],
-							"id": "a210477a-ec12-4f44-b08b-3a01072dabeb"
+							"id": "ec13eae3-bef5-4b70-9d26-897bb6103790"
 						}
 					],
-					"id": "f39e1310-ae91-4fe1-bc5f-2c18466aacb9"
+					"id": "a835062d-c132-493c-9461-d466fb4b77d0"
 				}
 			],
-			"id": "74b9cee0-d572-43e2-bad3-5cb90e9806f5"
+			"id": "e855a6ec-19b3-43fd-9c04-072dacaa98e8"
 		}
 	],
 	"auth": {
@@ -454,7 +454,7 @@
 	},
 	"variable": [
 		{
-			"id": "1fed12b6-0076-480a-af09-d0288eef45fd",
+			"id": "1b5174f3-ee13-4ea4-9bd1-16462bd7ef3b",
 			"key": "baseUrl",
 			"value": "/"
 		}
